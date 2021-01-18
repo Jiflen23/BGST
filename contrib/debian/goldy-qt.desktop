@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BGST
+Comment=BGST P2P Cryptocurrency
+Comment[fr]=BGST, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BGST, eşten eşe kriptografik sanal para birimi
+Exec=stotinka-qt %u
+Terminal=false
+Type=Application
+Icon=stotinka128
+MimeType=x-scheme-handler/stotinka;
+Categories=Office;Finance;

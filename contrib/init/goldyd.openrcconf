@@ -1,0 +1,26 @@
+# /etc/conf.d/stotinkad: config file for /etc/init.d/stotinkad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/stotinka/stotinka.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/stotinkad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/stotinkad.pid"
+
+# Where to write stotinkad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/stotinkad"
+
+# User and group to own stotinkad process
+#BITCOIND_USER="stotinka"
+#BITCOIND_GROUP="stotinka"
+
+# Path to stotinkad executable
+#BITCOIND_BIN="/usr/bin/stotinkad"
+
+# Nice value to run stotinkad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

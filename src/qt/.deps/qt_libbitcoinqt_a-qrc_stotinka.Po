@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_stotinka.o: qt/qrc_stotinka.cpp

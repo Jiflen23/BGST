@@ -1,0 +1,11 @@
+[Protocol]
+exec=stotinka-qt '%u'
+protocol=stotinka
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

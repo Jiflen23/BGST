@@ -1,0 +1,26 @@
+[Unit]
+Description=STOTINKA's distributed currency daemon
+After=network.target
+
+[Service]
+User=stotinka
+Group=stotinka
+
+Type=forking
+PIDFile=/var/lib/stotinkad/stotinkad.pid
+
+ExecStart=/usr/bin/stotinkad -daemon -pid=/var/lib/stotinkad/stotinkad.pid \
+          -conf=/etc/stotinka/stotinka.conf -datadir=/var/lib/stotinkad
+
+ExecStop=-/usr/bin/stotinka-cli -conf=/etc/stotinka/stotinka.conf \
+         -datadir=/var/lib/stotinkad stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
