@@ -5,45 +5,24 @@
 Coin Name | Stotinka
 :--- | :---
 Ticker | BGST
-Block time | 60 seconds
-Maximum supply | 15,000,000(15M) 
-Consensus mechanism | Proof-of-Stake
+Block time | 5 minutes
+Maximum supply | 6 924 779
+Consensus mechanism | Proof-of-Stake / MN
 Algorithm | Quark
-Collateral | 5,000 
-RPC/P2P main Port | 36264/36263
-RPCP2P testnet Port | 37264 / 37263
+Collateral | 600 
+RPC main Port | 39260
+RPC testnet Port | 38260
 
-### Reward Schema
+### Reward Scheme
 
 From | To | Rewards | Masternode | Staker |
 ---: | ---: | ---: | ---: | ---: |
-0         | 1         | 1,000,000   | 0%  | 0%  
-2     | 10000    | 1      | 0% | 0% 
-10001     | 19999    | 2     | 75% | 25% 
-20000     | 29999    | 3     | 75% | 25% 
-30000     | 39999    | 1     | 75% | 25% 
-40000     | 59999    | 4     | 75% | 25% 
-60000     | 79999    | 3     | 75% | 25% 
-80000     | 99999    | 2     | 75% | 25% 
-100000     | to end    | 1     | 75% | 25% 
+0         | 1         | 2,000,000   | 0%  | 0%  
+2     | 5000    | 0.01      | 0% | 0% 
+5001     | 10000    | 1    | 90% | 10% 
+10001     | 30000    | 0.50     | 90%  | 10% 
+30001     | 60000    | 0.25     | 90%  | 10% 
+60001     | 100000    | 0.125     | 90%  | 10% 
+100001    | 200000    | 0.25    | 90%  | 10% 
+200001     | to end    | 0.15    | 90%  | 10% 
 
-### Social Network
- 
-Twitter:  https://twitter.com/Stotinka 
-
-ANN Official:  https://bitcointalk.org/index.php?topic=5244522 
-
-Discord:  https://discord.gg/rrr8vFS 
-
-Reddit:  https://www.reddit.com/r/Stotinka/ 
-
-Telegram Official: https://t.me/stotinka_official
-
-### Market/ Price  Data 
-Coinpaprika:  https://coinpaprika.com/coin/bdcash-stotinka/
-
-Coingecko: https://coingecko.com/coins/bigdata-cash/
-
-Coinlore  https://www.coinlore.com/coin/stotinka
-
-CoinmarketCap https://coinmarketcap.com/currencies/stotinka/
