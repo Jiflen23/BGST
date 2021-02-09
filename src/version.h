@@ -12,34 +12,34 @@
  * network protocol versioning
  */
 
-static const int PROTOCOL_VERSION = 70900;
+static const int PROTOCOL_VERSION = 70950;
 
 //! initial proto version, to be increased after version/verack negotiation
-static const int INIT_PROTO_VERSION = 220;
+static const int INIT_PROTO_VERSION = 221;
 
 //! In this version, 'getheaders' was introduced.
-static const int GETHEADERS_VERSION = 70079;
+static const int GETHEADERS_VERSION = 70080;
 
 //! disconnect from peers older than this proto version
-static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70900;
-static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 70900;
+static const int MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT = 70901;
+static const int MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT = 70901;
 
 //! nTime field added to CAddress, starting with this version;
 //! if possible, avoid requesting addresses nodes older than this
-static const int CADDR_TIME_VERSION = 31403;
+static const int CADDR_TIME_VERSION = 31404;
 
 //! only request blocks from nodes outside this range of versions
-static const int NOBLKS_VERSION_START = 32000;
-static const int NOBLKS_VERSION_END = 70900;
+static const int NOBLKS_VERSION_START = 32001;
+static const int NOBLKS_VERSION_END = 70901;
 
 //! BIP 0031, pong message, is enabled for all versions AFTER this one
-static const int BIP0031_VERSION = 60002;
+static const int BIP0031_VERSION = 60003;
 
 //! "mempool" command, enhanced "getdata" behavior starts with this version
-static const int MEMPOOL_GD_VERSION = 60002;
+static const int MEMPOOL_GD_VERSION = 60003;
 
 //! "filter*" commands are disabled without NODE_BLOOM after and including this version
-static const int NO_BLOOM_VERSION = 70006;
+static const int NO_BLOOM_VERSION = 70008;
 
 
 #endif // BITCOIN_VERSION_H
