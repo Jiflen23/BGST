@@ -106,7 +106,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 5 * 60; // stotinka: 5 minute (aka every block)
         nTargetSpacing = 5 * 60;  // stotinka: 5 minute
-        nLastPOWBlock = 5100;
+        nLastPOWBlock = 5120;
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 510;
