@@ -106,7 +106,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 5 * 60; // stotinka: 5 minute (aka every block)
         nTargetSpacing = 5 * 60;  // stotinka: 5 minute
-        nLastPOWBlock = 5120;
+        nLastPOWBlock = 10000;
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 510;
@@ -149,8 +149,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000019902c682d58511ecc40b78303f927e50f706cd2e66c9e89e0e185c7ba58"));
         assert(genesis.hashMerkleRoot == uint256("0x478158b98fa18b040ce958b2a1cc3487e1b89f15439aeef4851f74478e4d6bef"));
 
-        vSeeds.push_back(CDNSSeedData("139.180.206.111", "139.180.206.111"));
-        vSeeds.push_back(CDNSSeedData("104.156.238.77", "104.156.238.77"));       
+        vSeeds.push_back(CDNSSeedData("78.141.232.14", "explorer.bgstcoin.com"));     
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 65);
@@ -207,7 +206,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // stotinka: 1 minute
         nTargetSpacing = 1 * 60;  // stotinka: 1 minute
-        nLastPOWBlock = 5000;
+        nLastPOWBlock = 10000;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 360;
